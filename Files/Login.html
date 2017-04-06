@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link rel="stylesheet" type="text/css" href="Menu.css">
+<link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="LoginScripts.js"></script>
+<body>
+
+<ul>
+    <li><a href="../Home.html"><img width="75" height="75" class="logo" src="Logo.jpg"></a> </li>
+  <li><a class="menu" href="News.html">News</a></li>
+  <li><a class="menu" href="Form.html">Iscriviti!</a></li>
+  <li><a class="menu" href="Credit.html">Chi siamo</a></li>
+    <li style="position:relative; left:15%; "> <h1 class="title"> My civic hacking page </h1></li>
+  <li style="float:right"><a class="login" style="font-size:60%;" href="Login.html">login</a></li>
+</ul>
+    <br>
+     <div class="form" style="text-align: center;">
+      <form action="/action_page.php" onsubmit="return validate()">
+      <b>e-mail:</b><br>
+      <input id="mail" type="email" value="">
+      <br><br>      
+      <b>password:</b><br>
+      <input id="password" type="password">
+      <br><br><br>
+      <input id="submit" type="button" value="Entra" onclick="return validate()" >
+    </form>
+</div>
